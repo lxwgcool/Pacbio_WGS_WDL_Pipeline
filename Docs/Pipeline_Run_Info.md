@@ -1,4 +1,4 @@
-# Tools and running options used by Pacbio WGS WDL Pipeline
+# Tools and running options used by Pacbio WGS WDL Pipeline (version 1.0)
 The primary 3rd-party tools and parameters that are used for generating the deliverable results. 
 The list below shows all sections contained by current online documentation. 
 1. [Small_Variant](#small_variant)
