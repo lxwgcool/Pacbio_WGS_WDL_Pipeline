@@ -13,4 +13,6 @@
 ### C
 
 ## Reference
-![image](https://github.com/user-attachments/assets/c724c0c8-55aa-4023-a127-d12ce3a29180)
+1. CE1 and CE2
+<img src="https://github.com/user-attachments/assets/c724c0c8-55aa-4023-a127-d12ce3a29180" width="300">
+
