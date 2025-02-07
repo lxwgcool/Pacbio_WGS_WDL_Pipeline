@@ -10,7 +10,7 @@
 2. strongly linked to higher risk of death
 3. broadly distinguished by elevated levels of POSTN+ fibroblasts and basal-like epithelial cells, respectively
 
-### C
+### CE3
 
 ## Reference
 1. CE1 and CE2
