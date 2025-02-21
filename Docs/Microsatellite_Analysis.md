@@ -17,9 +17,18 @@
 
 
 ### Joint Call (Results)
-Still running
+1. Still running
 ```
 /DCEG/Projects/Exome/SequencingData/DAATeam/Xin/ad_hoc/SawFish/Run/JointCall/output/call
+```
+
+2. **Explanation**: The joint call step takes the output of the sawfish 'discover' step for one to many samples and provides jointly genotyped SV calls over the sample set. Joint calling includes the following operations:
+    * Merge duplicate SV haplotypes
+    * Associate deduplicated SV haplotypes with samples
+    * Evaluate SV read support in each sample
+    * Genotype quality assessment and VCF output
+```
+https://github.com/PacificBiosciences/sawfish/blob/main/docs/user_guide.md#getting-started
 ```
 
 ### Supported SV Types
@@ -72,6 +81,45 @@ https://github.com/PacificBiosciences/sawfish
 
 
 ## TRGT Calling Result Phasing
+
+### Phasing Results (Individual)
+```
+/DCEG/Projects/Exome/SequencingData/DAATeam/Xin/Pacbio/WGS_WDL_OUTPUT/TRGT/output/trgt
+```
+
+1. The subfolder "Hiphase" In each sample folder
+<img src="https://github.com/user-attachments/assets/897da562-a5c5-4ebb-84f5-b12f2f5a0a4f" width="300">
+
+2. Contain multipile files
+   * "sorted.phased.vcf.gz" is what we want.
+<img src="https://github.com/user-attachments/assets/524da7a1-5d4f-4705-b07a-897ee8c9d1a6" width="350">
+
+
+3. The details of output
+```
+https://github.com/PacificBiosciences/HiPhase/blob/main/docs/user_guide.md
+```
+
+### Phasing Results (Joint)
+1. It still running
+```
+/DCEG/Projects/Exome/SequencingData/DAATeam/Xin/Pacbio/WGS_WDL_OUTPUT/TRGT/output/Hiphase
+```
+
 ### Reference
 1. HiPhase
-   * Verson: 
+   * Verson: v1.4.5
+   * Github
+```
+https://github.com/PacificBiosciences/HiPhase/tree/main
+```
+
+2. Directory
+```
+1: Script
+/DCEG/Projects/Exome/SequencingData/DAATeam/Xin/Pacbio/WGS_WDL_OUTPUT/TRGT/script/Microsatellite_Analysis
+
+2: Output
+/DCEG/Projects/Exome/SequencingData/DAATeam/Xin/Pacbio/WGS_WDL_OUTPUT/TRGT/output
+```
+
