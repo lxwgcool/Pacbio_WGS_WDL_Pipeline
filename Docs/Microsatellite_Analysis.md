@@ -13,7 +13,7 @@
 ```
 /DCEG/Projects/Exome/SequencingData/DAATeam/Xin/ad_hoc/SawFish/Run/IndividualCall/output/call
 ```
-![image](https://github.com/user-attachments/assets/cd7c5b7c-d235-4e8a-99ce-73ae413008ae)
+<img src="https://github.com/user-attachments/assets/cd7c5b7c-d235-4e8a-99ce-73ae413008ae" width="350">
 
 
 ### Joint Call (Results)
