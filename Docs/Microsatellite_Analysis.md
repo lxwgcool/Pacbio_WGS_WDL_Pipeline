@@ -31,6 +31,8 @@
 https://github.com/PacificBiosciences/sawfish/blob/main/docs/user_guide.md#getting-started
 ```
 
+3. **Comments**: Since the major motivation of joint call is merging multiple samples together rather pedigree-based additional layer of analysis, I think it's worth for us to run it to have the whole picture inside one file. 
+
 ### Supported SV Types
 1. Deletions
 2. Insertions
