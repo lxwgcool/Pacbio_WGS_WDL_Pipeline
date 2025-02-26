@@ -153,6 +153,36 @@ Completed
 /DCEG/Projects/Exome/SequencingData/DAATeam/Xin/Pacbio/WGS_WDL_OUTPUT/TRGT/output/Hiphase
 ```
 
+### VCF Format Description
+Each single event contains 4 major sections, including
+  * FILTER
+  * INFO
+  * FORMAT
+
+For details, please check the explanation below
+```
+1: FILTER
+##FILTER=<ID=PASS,Description="All filters passed">
+
+2: INFO
+##INFO=<ID=TRID,Number=1,Type=String,Description="Tandem repeat ID">
+##INFO=<ID=END,Number=1,Type=Integer,Description="End position of the variant described in this record">
+##INFO=<ID=MOTIFS,Number=.,Type=String,Description="Motifs that the tandem repeat is composed of">
+##INFO=<ID=STRUC,Number=1,Type=String,Description="Structure of the region">
+
+3: FORMAT
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=AL,Number=.,Type=Integer,Description="Length of each allele">
+##FORMAT=<ID=ALLR,Number=.,Type=String,Description="Length range per allele">
+##FORMAT=<ID=SD,Number=.,Type=Integer,Description="Number of spanning reads supporting per allele">
+##FORMAT=<ID=MC,Number=.,Type=String,Description="Motif counts per allele">
+##FORMAT=<ID=MS,Number=.,Type=String,Description="Motif spans per allele">
+##FORMAT=<ID=AP,Number=.,Type=Float,Description="Allele purity per allele">
+##FORMAT=<ID=AM,Number=.,Type=Float,Description="Mean methylation level per allele">
+##FORMAT=<ID=PS,Number=1,Type=Integer,Description="Phase set identifier">
+##FORMAT=<ID=PF,Number=1,Type=String,Description="Phasing flag">
+```
+
 ### Reference
 1. HiPhase
    * Verson: v1.4.5
