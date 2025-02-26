@@ -129,6 +129,7 @@ https://github.com/PacificBiosciences/sawfish
 ## TRGT Calling Result Phasing
 
 ### Phasing Results (Individual)
+Completed
 ```
 /DCEG/Projects/Exome/SequencingData/DAATeam/Xin/Pacbio/WGS_WDL_OUTPUT/TRGT/output/trgt
 ```
@@ -147,7 +148,7 @@ https://github.com/PacificBiosciences/HiPhase/blob/main/docs/user_guide.md
 ```
 
 ### Phasing Results (Joint)
-1. It still running
+Completed
 ```
 /DCEG/Projects/Exome/SequencingData/DAATeam/Xin/Pacbio/WGS_WDL_OUTPUT/TRGT/output/Hiphase
 ```
