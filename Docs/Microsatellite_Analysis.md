@@ -48,6 +48,50 @@ https://github.com/PacificBiosciences/sawfish/blob/main/docs/user_guide.md#getti
 1. The SV calling result has been phased
 2. Check Tag "PS" for phasing info
 
+### VCF Format Description
+Each single event contains 4 major sections, including
+  * FILTER
+  * ALT
+  * INFO
+  * FORMAT
+
+For details, please check the explanation below
+```
+1: FILTER
+##FILTER=<ID=PASS,Description="All filters passed">
+##FILTER=<ID=.,Description="Unknown filtration status">
+##FILTER=<ID=InvBreakpoint,Description="Breakpoint represented as part of an inversion record (same EVENT ID)">
+##FILTER=<ID=MinQUAL,Description="QUAL score is less than 10">
+##FILTER=<ID=MaxScoringDepth,Description="SV candidate exceeds max scoring depth">
+##FILTER=<ID=ConflictingBreakpointGT,Description="Genotypes of breakpoints in a multi-breakpoint event conflict in the majority of cases">
+
+2: ALT
+##ALT=<ID=DEL,Description="Deletion">
+##ALT=<ID=INS,Description="Insertion">
+##ALT=<ID=DUP:TANDEM,Description="Tandem Duplication">
+##ALT=<ID=INV,Description="Inversion">
+
+3: INFO
+##INFO=<ID=END,Number=1,Type=Integer,Description="End position of the variant described in this record">
+##INFO=<ID=EVENT,Number=A,Type=String,Description="ID of associated event">
+##INFO=<ID=EVENTTYPE,Number=A,Type=String,Description="Type of associated event">
+##INFO=<ID=HOMLEN,Number=.,Type=Integer,Description="Length of base pair identical micro-homology at event breakpoints">
+##INFO=<ID=HOMSEQ,Number=.,Type=String,Description="Sequence of base pair identical micro-homology at event breakpoints">
+##INFO=<ID=IMPRECISE,Number=0,Type=Flag,Description="Imprecise structural variation">
+##INFO=<ID=INSLEN,Number=.,Type=Integer,Description="Insertion length">
+##INFO=<ID=INSSEQ,Number=.,Type=String,Description="Insertion sequence (for symbolic alt alleles)">
+##INFO=<ID=MATEID,Number=.,Type=String,Description="ID of mate breakends">
+##INFO=<ID=SVLEN,Number=.,Type=Integer,Description="Difference in length between REF and ALT alleles">
+##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type of structural variant">
+
+4: FORMAT
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="Phred-scaled genotype likelihoods rounded to the closest integer">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Read depth for each allele">
+##FORMAT=<ID=PS,Number=1,Type=Integer,Description="Phase set identifier">
+```
+
 ### Reference
 1. Sawfish version
    * v0.12.9
