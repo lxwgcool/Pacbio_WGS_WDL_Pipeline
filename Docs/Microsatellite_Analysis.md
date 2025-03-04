@@ -15,7 +15,7 @@
 ```
 <img src="https://github.com/user-attachments/assets/cd7c5b7c-d235-4e8a-99ce-73ae413008ae" width="350">
 
-2. Other output explaination
+2. Other outputs explaination
   * ${OUTPUT_DIR}/**sawfish.log** - High level logging output
   * ${OUTPUT_DIR}/**run_stats.json** - Run statistics and component timings
   * ${OUTPUT_DIR}/**contig.alignment.bam** - Contigs for assembled SV haplotypes aligned back to the reference genome
