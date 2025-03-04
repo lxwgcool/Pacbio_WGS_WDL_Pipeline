@@ -17,7 +17,7 @@
 
 
 ### Joint Call (Results)
-1. Still running
+1. Completed
 ```
 /DCEG/Projects/Ped_Studies/Ewings/PacBio/CustomizeAnalysis/Sawfish/Run/JointCall/output/call
 ```
