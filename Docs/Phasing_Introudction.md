@@ -27,7 +27,7 @@ relate to the internal algorithms, refer to our methods.
 
 ## Example
 ### Phase block file 
-![image](https://github.com/user-attachments/assets/cc0fc310-4fb8-4fdd-b0b3-d62805ebfe2f)
+<img src="https://github.com/user-attachments/assets/cc0fc310-4fb8-4fdd-b0b3-d62805ebfe2f" width="500">
 
 Notice:
 1. The meaning of each section
@@ -51,5 +51,14 @@ num_variants - the total number of phased variants in the phase block
 
 ## Algorithm Explaination
 ### How to created each block
-![image](https://github.com/user-attachments/assets/e7bdd654-1a1e-4c93-93c7-c364a7abe33a)
+<img src="https://github.com/user-attachments/assets/e7bdd654-1a1e-4c93-93c7-c364a7abe33a" width="500">
+
+Reference 
+```
+1: The details of building block through hiphase
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10868326/
+
+2: A software related to phasing, and some of plots are good for interpreation
+https://docs.varsome.com/en/phasing
+```
 
