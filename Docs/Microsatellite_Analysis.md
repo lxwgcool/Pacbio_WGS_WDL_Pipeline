@@ -20,6 +20,10 @@
   * ${OUTPUT_DIR}/**run_stats.json** - Run statistics and component timings
   * ${OUTPUT_DIR}/**contig.alignment.bam** - Contigs for assembled SV haplotypes aligned back to the reference genome
 
+3. Structure Variation General Output (VCF) Interpretation
+<img src="https://github.com/user-attachments/assets/218151e6-766c-47ee-9e3c-dc03c76215ae" width="500">
+
+
 
 ### Joint Call (Results)
 1. Completed
