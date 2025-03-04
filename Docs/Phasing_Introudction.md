@@ -48,6 +48,7 @@ num_variants - the total number of phased variants in the phase block
    * It is **NOT** the starting and ending position of each block
    * It is the position of the **first** and the **last** variant inside block 
    * The "start = end" means that there is only 1 variant in this block
+     * This means the num_variants for the case "start = end" should be always 1 
 
 ## Algorithm Explaination
 ### How to created each block
