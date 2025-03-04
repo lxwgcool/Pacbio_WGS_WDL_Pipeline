@@ -124,7 +124,7 @@ https://github.com/PacificBiosciences/sawfish
 /DCEG/Projects/Exome/SequencingData/DAATeam/Xin/ad_hoc/SawFish/sawfish
 
 4: Running script
-/DCEG/Projects/Exome/SequencingData/DAATeam/Xin/ad_hoc/SawFish/Run/script
+/DCEG/Projects/Ped_Studies/Ewings/PacBio/CustomizeAnalysis/Sawfish/Run/script
 
 5: Input
 /DCEG/Projects/Exome/SequencingData/DAATeam/Xin/ad_hoc/SawFish/Run/Data
