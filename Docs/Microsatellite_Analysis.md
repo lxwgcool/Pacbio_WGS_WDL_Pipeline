@@ -131,7 +131,7 @@ https://github.com/PacificBiosciences/sawfish
 ### Phasing Results (Individual)
 Completed
 ```
-/DCEG/Projects/Exome/SequencingData/DAATeam/Xin/Pacbio/WGS_WDL_OUTPUT/TRGT/output/trgt
+/DCEG/Projects/Ped_Studies/Ewings/PacBio/CustomizeAnalysis/TRGT_Perfect_Match/Run/trgt
 ```
 
 1. The subfolder "Hiphase" In each sample folder
@@ -150,7 +150,7 @@ https://github.com/PacificBiosciences/HiPhase/blob/main/docs/user_guide.md
 ### Phasing Results (Joint)
 Completed
 ```
-/DCEG/Projects/Exome/SequencingData/DAATeam/Xin/Pacbio/WGS_WDL_OUTPUT/TRGT/output/Hiphase
+/DCEG/Projects/Ped_Studies/Ewings/PacBio/CustomizeAnalysis/TRGT_Perfect_Match/Run/joint_call_hiphase
 ```
 
 ### VCF Format Description
@@ -197,6 +197,6 @@ https://github.com/PacificBiosciences/HiPhase/tree/main
 /DCEG/Projects/Exome/SequencingData/DAATeam/Xin/Pacbio/WGS_WDL_OUTPUT/TRGT/script/Microsatellite_Analysis
 
 2: Output
-/DCEG/Projects/Exome/SequencingData/DAATeam/Xin/Pacbio/WGS_WDL_OUTPUT/TRGT/output
+/DCEG/Projects/Ped_Studies/Ewings/PacBio/CustomizeAnalysis/TRGT_Perfect_Match/Run
 ```
 
