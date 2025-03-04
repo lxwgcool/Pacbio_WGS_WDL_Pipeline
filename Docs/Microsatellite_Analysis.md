@@ -2,16 +2,16 @@
 ### Dependence           
 1. Haplotagged BAM Files
 ```
-/DCEG/Projects/Exome/SequencingData/DAATeam/Xin/ad_hoc/SawFish/Run/Data/EwingSampleList.txt
+/DCEG/Projects/Ped_Studies/Ewings/PacBio/CustomizeAnalysis/Sawfish/Run/Data/EwingSampleList.txt
 ```
 ### Individual Discover
 ```
-/DCEG/Projects/Exome/SequencingData/DAATeam/Xin/ad_hoc/SawFish/Run/IndividualCall/output/discover
+/DCEG/Projects/Ped_Studies/Ewings/PacBio/CustomizeAnalysis/Sawfish/Run/IndividualCall/output/discover
 ```
 ### Individual Call (Results)
 "genotyped.sv.vcf.gz" is our target file
 ```
-/DCEG/Projects/Exome/SequencingData/DAATeam/Xin/ad_hoc/SawFish/Run/IndividualCall/output/call
+/DCEG/Projects/Ped_Studies/Ewings/PacBio/CustomizeAnalysis/Sawfish/Run/IndividualCall/output/call
 ```
 <img src="https://github.com/user-attachments/assets/cd7c5b7c-d235-4e8a-99ce-73ae413008ae" width="350">
 
@@ -19,7 +19,7 @@
 ### Joint Call (Results)
 1. Still running
 ```
-/DCEG/Projects/Exome/SequencingData/DAATeam/Xin/ad_hoc/SawFish/Run/JointCall/output/call
+/DCEG/Projects/Ped_Studies/Ewings/PacBio/CustomizeAnalysis/Sawfish/Run/JointCall/output/call
 ```
 
 2. **Explanation**: The joint call step takes the output of the sawfish 'discover' step for one to many samples and provides jointly genotyped SV calls over the sample set. Joint calling includes the following operations:
@@ -121,8 +121,8 @@ https://github.com/PacificBiosciences/sawfish
 /DCEG/Projects/Exome/SequencingData/DAATeam/Xin/ad_hoc/SawFish/Run/Data
 
 6: Running Results
-/DCEG/Projects/Exome/SequencingData/DAATeam/Xin/ad_hoc/SawFish/Run/IndividualCall
-/DCEG/Projects/Exome/SequencingData/DAATeam/Xin/ad_hoc/SawFish/Run/JointCall
+/DCEG/Projects/Ped_Studies/Ewings/PacBio/CustomizeAnalysis/Sawfish/Run/IndividualCall
+/DCEG/Projects/Ped_Studies/Ewings/PacBio/CustomizeAnalysis/Sawfish/Run/JointCall
 ```
 
 
