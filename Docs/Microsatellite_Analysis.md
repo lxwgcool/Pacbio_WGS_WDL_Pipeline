@@ -152,12 +152,25 @@ Completed
 
 
 3. The details of output
-We have total 5 types of output
+
+We have total 5 types of output, including
   * sorted.phased.vcf.gz and sorted.phased.vcf.gz.tbi: Phased vcf file
-  * blocks.tsv: information about the the phase blocks 
+  * blocks.tsv: information about the the phase blocks
+    
+    <img src="https://github.com/user-attachments/assets/4a0ee307-6f33-4c1d-ae0e-90eebcbb2dc4" width="450">
+    
   * haplotag.tsv: haplotag information for aligned reads
+    
+    <img src="https://github.com/user-attachments/assets/332adadc-d577-4881-b7de-a935abd466e5" width="350">
+    
   * stats.csv: statistics regarding the performance of the underlying algorithms while running HiPhase
+    
+    <img src="https://github.com/user-attachments/assets/f9afbf16-71ce-43c5-ac31-ab04cd537bec" width="350">
+    
   * summary.tsv: chromosome-level summary statistics for all phase blocks
+    
+    <img src="https://github.com/user-attachments/assets/98665631-18ac-4ab4-b4b3-503ea6d8ead9" width="800">
+    
 ```
 * Phase block file (--blocks-file)
 This CSV/TSV file contains information about the the phase blocks that were output by HiPhase.
