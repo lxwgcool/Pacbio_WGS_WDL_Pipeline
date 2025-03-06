@@ -13,12 +13,14 @@
 ```
 /DCEG/Projects/Ped_Studies/Ewings/PacBio/CustomizeAnalysis/Sawfish/Run/IndividualCall/output/call
 ```
-<img src="https://github.com/user-attachments/assets/cd7c5b7c-d235-4e8a-99ce-73ae413008ae" width="350">
+<img src="https://github.com/user-attachments/assets/4e647a97-d694-43cd-8714-c087db682ee4" width="350">
+
 
 2. Other outputs explaination
   * ${OUTPUT_DIR}/**sawfish.log** - High level logging output
   * ${OUTPUT_DIR}/**run_stats.json** - Run statistics and component timings
   * ${OUTPUT_DIR}/**contig.alignment.bam** - Contigs for assembled SV haplotypes aligned back to the reference genome
+  * ${OUTPUT_DIR}/genotyped.sv.customize.tsv - the customized tsv file based on "genotyped.sv.vcf.gz"
 
 3. Structure Variation General Output (VCF) Interpretation
 <img src="https://github.com/user-attachments/assets/218151e6-766c-47ee-9e3c-dc03c76215ae" width="500">
@@ -99,6 +101,25 @@ For details, please check the explanation below
 ##FORMAT=<ID=PL,Number=G,Type=Integer,Description="Phred-scaled genotype likelihoods rounded to the closest integer">
 ##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Read depth for each allele">
 ##FORMAT=<ID=PS,Number=1,Type=Integer,Description="Phase set identifier">
+```
+
+### TSV Format Description
+The customized tsv file based on "genotyped.sv.vcf.gz"
+```
+ID    : Event ID; the ID field of the VCF output.
+Region: Chrom + POS + END field of the VCF output.
+Sample: Sample Name
+TYPE  : SV TYPE
+LEN   : The length of the SV event
+GT    : Genotype
+GQ    : Genotype Quality
+PL    : Phred-scaled genotype likelihoods rounded to the closest integer
+AD    : Read depth for each allele
+PS    : Phase set identifier
+QUAL  : Phred-scaled quality score
+Filter: Whether a variant has passed quality control or has been flagged for specific reasons
+Ref   : Reference sequence
+Alt   : Alternative sequence
 ```
 
 ### Reference
