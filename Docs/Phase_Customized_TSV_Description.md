@@ -44,7 +44,7 @@ The calling results and related infomation are spreaded in multiple files. We ex
 | Num_Spanning_Reads_Supporting_Per_Allele | Number of spanning reads supporting per allele | merged.phased.vcf.gz | SD |
 | Phase_set_ID | Phase set identifier | merged.phased.vcf.gz | PS |
 | Hap1/Hap2 | Number of reads from Hap1 VS Hap2 from same phasing block | merged.haplotag.tsv | phase_block_id, read_name, haplotag |
-| Haplotag | Based on phased genotype ("Hap1" \| "Hap2") | merged.phased.vcf.gz | GT |
+| Haplotag | Based on phased genotype ("hap1" \| "hap2") | merged.phased.vcf.gz | GT |
 | Num_Var_In_Phasing_Block | Number of variant in current phasing block | merged.blocks.tsv | phase_block_id, num_variants |
 
 
