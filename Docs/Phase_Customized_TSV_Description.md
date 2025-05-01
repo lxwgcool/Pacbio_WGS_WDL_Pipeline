@@ -1,7 +1,7 @@
-# The description of phased.customize.tsv file
+# The description of file "phased.customize.tsv"
 ## Background
 ### Motivation
-The calling results and related infomation were separated in multiple files. We extract some types of information from multiple files and summarize them into one file.
+The calling results and related infomation are spreaded in multiple files. We extract some types of important information from multiple files and summarize them into one file.
 
 ### The original outputs from HiPhase that are used to generate "phased.customize.tsv"
 1. merged.blocks.tsv
@@ -18,7 +18,7 @@ The calling results and related infomation were separated in multiple files. We 
 <img src="https://github.com/user-attachments/assets/bd5bb94e-69f0-421a-a7c8-2c87d0accd1a" width="350">
 
 
-## phased.customize.tsv file
+## Introduction of "phased.customize.tsv"
 ### Total number of caption fields
 16
 
