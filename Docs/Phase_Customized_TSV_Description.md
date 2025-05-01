@@ -34,7 +34,7 @@ The calling results and related infomation are spreaded in multiple files. We ex
 | Region | The event's region from start to end | merged.phased.vcf.gz | POS, END |
 | Sample | Sample name | - | - |
 | REF | Reference sequence | merged.phased.vcf.gz | REF |
-| Allele | Reference sequence or Alternative sequence| merged.phased.vcf.gz | REF, ALT |
+| Allele | Reference sequence or alternative sequence| merged.phased.vcf.gz | REF, ALT |
 | Motif | Motifs that the tandem repeat is composed of | merged.phased.vcf.gz | MOTIFS |
 | Purity | Allele purity per allele | merged.phased.vcf.gz | AP |
 | Motif_Count | Motif counts per allele | merged.phased.vcf.gz | MC |
