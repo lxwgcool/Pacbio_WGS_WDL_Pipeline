@@ -47,7 +47,14 @@ The calling results and related infomation are spreaded in multiple files. We ex
 | Haplotag | Based on phased genotype ("Hap1" \| "Hap2") | merged.phased.vcf.gz | GT |
 | Num_Var_In_Phasing_Block | Number of variant in current phasing block | merged.blocks.tsv | phase_block_id, num_variants |
 
-                                                              
+
+### Reference
+1. data sharing directory
+```
+/mnt/nfs/gigantor/ifs/DCEG/Projects/Ped_Studies/Ewings/PacBio/CustomizeAnalysis/TRGT_Perfect_Match/Run/joint_call_hiphase
+```
+
+                                                      
 
 
 
