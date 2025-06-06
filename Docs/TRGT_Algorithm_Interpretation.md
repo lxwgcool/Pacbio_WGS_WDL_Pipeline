@@ -1,20 +1,20 @@
 # TRGT Algorithm Interpretation
 ## Questions 1: if you are able to provide me with details from TRGT to clarify what the algorithm calls a microsatellite?
 There are a total of three steps in how TRGT calls microsatellites
-### Step 1: TRGT locates reads that span a given repeat region and clusters them:
+### Step 1: TRGT locates reads that span a given repeat region and clusters them
 1. To cluster the reads, TRGT first calculates the edit distances between all pairs of reads and then performs agglomerative clustering using Ward linkage.
 2. It filters out any cluster containing fewer than 10% of the total number of spanning reads.
 3. Two cases are considered:
    * Diploid repeats: TRGT assigns the two largest clusters to each allele.
    * Haploid repeats: The largest cluster is assigned to the allele.
 
-### Step 2: Reconstructing the consensus sequence of each repeat allele:
+### Step 2: Reconstructing the consensus sequence of each repeat allele
 1. A read of the median length is selected from the corresponding cluster and used as the alignment backbone.
 2. All reads in the cluster are aligned against this backbone sequence.
 3. The consensus sequence is determined by scanning the backbone and incorporating bases through a majority vote based on the alignment operations.
 
-### Step 3: Annotating occurrences of individual repeat motifs within each consensus allele (final step of calling repeats):
-TRGT considers two cases separately:
+### Step 3: Annotating occurrences of individual repeat motifs within each consensus allele
+This is the final step of calling repeats. TRGT considers two cases separately:
 1. Case 1: Simple tandem repeats (TRs)
    * Definition
       * Repetitions of one or multiple fixed-sized motifs.
@@ -37,8 +37,9 @@ Yes, the library information we provide to the algorithm is the most important d
 
 ## Question 3: If there is a minimum size threshold used to define the microsatellite regions in the library.
 Yes, we do have some thresholds that were used to define the microsatellite regions in the library. Please see the details below.
-### 1. The original library used to generate ggaa_repeats.bed is variation_clusters_and_isolated_TRs_v1.hg38.TRGT.bed.gz:
-1. This file was provided by the Broad Institute.
+### 1. The original library "variation_clusters_and_isolated_TRs_v1.hg38.TRGT.bed.gz"
+1. The original library used to generate "ggaa_repeats.bed" is "variation_clusters_and_isolated_TRs_v1.hg38.TRGT.bed.gz"
+   * This file was provided by the Broad Institute.
 ```
 GitHub repository:
 https://github.com/broadinstitute/tandem-repeat-catalog/
