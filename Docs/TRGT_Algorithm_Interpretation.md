@@ -44,10 +44,10 @@ Yes, we do have some thresholds that were used to define the microsatellite regi
 GitHub repository:
 https://github.com/broadinstitute/tandem-repeat-catalog/
 ```
-2. It contains a genome-wide tandem repeat (TR) catalog with approximately 4.9 million loci.
-   * The catalog stratifies TRs into two groups:
-   * Isolated TRs, suitable for traditional repeat copy number analysis using short-read or long-read data.
-   * TRs embedded within broader polymorphic regions (i.e., variation clusters), which are better studied through sequence-level analysis.
+2. It contains a genome-wide tandem repeat (TR) catalog with approximately 4.9 million loci
+   * The catalog stratifies TRs into two groups
+      * Isolated TRs, suitable for traditional repeat copy number analysis using short-read or long-read data.
+      * TRs embedded within broader polymorphic regions (i.e., variation clusters), which are better studied through sequence-level analysis.
 
 ### 2. Regarding the genome-wide TR catalog
 1. Includes all perfect repeats in hg38 that span ≥ 9 bp.
